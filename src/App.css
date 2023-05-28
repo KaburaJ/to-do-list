@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+  text-align: center;
+}
+
+.main-container{
+  border: 2px solid #907c84;
+  box-sizing: border-box;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(249,243,238,255);
+  border-radius: 12px;
+  /* margin-top: 100px; */
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between !important; */
+}
+.img1 {
+  order: -1; /* Push the left image to the beginning */
+  margin-right: 130px; /* Add some spacing between the images */
+  margin-top: 10px;
+  width: 20%;
+  height: 20%;
+}
+
+.todo{
+  font-family: 'Indie Flower', cursive;
+  font-size:xx-large;
+  font-weight: 100;
+  padding-right: 120px;
+}
+
+.img2 {
+  margin-top: 10px;
+  width: 20%;
+  height: 20%;
+  z-index: 999;
+}
+
+.butterfly{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* gap: 2px; */
+  /* justify-content: space-between !important; */
+}
+.img3 {
+  margin-top: 40px;
+  width: 5%;
+  height: 10%;
+  justify-content: right;
+}
+.react-calendar{
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(240,222,221,255) !important;
+  border-radius: 16px;
+  border: none !important;
+  border-color: white;
+  outline: none !important;
+  padding: 4px;
+  /* padding-bottom: 20px; */
+}
+.img4 {
+  margin-top: 40px;
+  width: 5%;
+  height: 10%;
+} 
+
+.input{
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+  gap: 40px;
+}
+.input select{
+  height: 40px;
+  border-radius: 8px;
+  background-color:  rgba(249,243,238,255);
+  border:none;
+  outline: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input input{
+  width: 280px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgba(240,222,221,255);
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.input button{
+  background-color: #f1b0ca;
+  border: none;
+  height: 40px;
+  border-radius: 8px;
+  /* font-weight: 600; */
+  font-family: 'Indie Flower', cursive;
+  font-size:large;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  padding: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size:large;
+  font-weight: 600;
+}
+
+
+.card1{
+  border: 2px solid #907c84;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* padding-right: 2px; */
+  margin-right: 12px;
+  position: relative;
+  /* background-color: #fff; */
+  margin-bottom: 10px;
+  background-color: rgba(240,222,221,255);
+  background-image:
+  linear-gradient(90deg, transparent 87px, rgba(240,222,221,255) 79px, rgba(240,222,221,255) 81px, transparent 81px),
+  linear-gradient(#fff .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  border: none;
+  /* border-color: rgba(240,222,221,255); */
+}
+
+.card2{
+  border: 2px solid #907c84;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* padding-right: 2px; */
+  margin-right: 12px;
+  margin-bottom: 10px;
+  background-color: rgba(229,213,202,255);
+  background-image:
+  linear-gradient(90deg, transparent 87px, rgba(229,213,202,255) 81px, transparent 81px),
+  linear-gradient(#fff .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  border: none;
+}
+
+.card3{
+  border: 2px solid #907c84;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* padding-right: 2px; */
+  margin-right: 12px;
+  background-color: #ced5e0;
+  background-image:
+  linear-gradient(90deg, transparent 87px, #ced5e0 79px, #ced5e0 81px, transparent 81px),
+  linear-gradient(#fff .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  border:none;
+}
+
+.card4{
+  border: 2px solid #907c84;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* padding-right: 2px; */
+  margin-right: 12px;
+  background-color:#dbced5;
+  background-image:
+  linear-gradient(90deg, transparent 87px, #dbced5 79px, #dbced5 81px, transparent 81px),
+  linear-gradient(#fff .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  border: none;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: .01px; */
+  /* margin: 0 auto; */
+}
+
+.task-description {
+  flex-grow: 1;
+  margin-left: 4px; /* Adjust the margin as desired */
+  /* border-left: 2px solid red; */
+}
+
+.delete-button {
+  margin-left: 8px; /* Adjust the margin as desired */
+  margin-right: 32px;
+  width: 50px;
+  height: 20px;
+
+}
+
+.delete-button:active {
+  box-shadow: 2px 2px 5px #f1b0ca;
+}
